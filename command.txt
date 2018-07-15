@@ -1,0 +1,23 @@
+    1  pwd
+    2  git clone https://github.com/VijayaMeghana/python.git
+    3  ls
+    4  ls | grep py
+    5  cd python/
+    6  ls
+    7  vi test
+    8  ls
+    9  cat test 
+   10  git status
+   11  ls
+   12  git status
+   13  git add test 
+   14  git status
+   15  git commit -m "created file"
+   16  git config --global user.email "meghanamallineni1116@gmail.com"
+   17  git config --global user.name "Vijaya Meghana"
+   18  git commit -m "created file"
+   19  git branch
+   20  git remote origin master
+   21  git push origin master
+   22  history
+   23  history >> command.txt
