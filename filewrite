@@ -1,0 +1,26 @@
+out=open("C:\\Users\\Admin\\Desktop\\Employee_out.txt",mode='w') 
+print(out)
+with open("C:\\Users\\Admin\\Desktop\\Employee.txt",mode='r') as emp:
+    counter=0
+    for line in emp.readlines():
+        if counter==0:
+            counter=counter+1
+            continue
+        words=line.split(' ')
+        firstname=words[0]
+        lastname=words[1]
+        base=int(words[2])
+        bouns=int(words[3])
+        fullname = firstname+' '+lastname;
+        gross=base+(base*bonus/100)
+        out.write(fullname+' '+str(gross)+"\n")
+out.close()
+        
+            
+        
+    
+            
+        
+    
+        
+            
